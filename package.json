@@ -1,13 +1,16 @@
 {
   "name": "front-end-made-easy",
+  "homepage" : "https://rupesh528.github.io/sorting_visualizer/"
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
+    "predeploy":"npm run build"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
+    "predeploy":"npm run build"
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-icons": "^4.2.0",
